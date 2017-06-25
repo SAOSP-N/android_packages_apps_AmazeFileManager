@@ -59,7 +59,7 @@ LOCAL_AAPT_FLAGS := \
 
 LOCAL_AAPT_INCLUDE_ALL_RESOURCES := true
 
-LOCAL_AAPT_FLAGS += --rename-manifest-package org.mokee.filemanager
+LOCAL_AAPT_FLAGS += --rename-manifest-package com.saosp.filemanager
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-annotations \
@@ -89,7 +89,6 @@ LOCAL_STATIC_JAVA_AAR_LIBRARIES := \
     aar-play-services-basement \
     aar-play-services-plus \
     aar-systembartint \
-    mokee-libsuperuser
 
 include $(BUILD_PACKAGE)
 
